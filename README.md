@@ -3,7 +3,6 @@
 
 **Submitted by:** Data Engineering Candidate  
 **Submission Date:** November 24, 2025  
-**Assignment Duration:** 100 days of billing data (Jan 1 - Apr 10, 2025)
 
 ---
 
@@ -251,9 +250,9 @@ All deliverables include:
 ## 📧 Contact
 
 For questions about this submission, please contact:
-- **Email:** [your-email@example.com]
-- **LinkedIn:** [your-linkedin-profile]
-- **GitHub:** [your-github-username]
+- **Email:** [urvashiparmar1603@gmail.com]
+- **LinkedIn:** [https://www.linkedin.com/in/urvashi-vankar-5229bb272/]
+- **GitHub:** [https://github.com/urvashivankar]
 
 ---
 
@@ -267,6 +266,5 @@ Thank you to K&Co for this comprehensive and realistic take-home assignment. It 
 
 ---
 
-**Submission Status:** ✅ Complete  
-**Total Time Invested:** ~8 hours  
+**Total Time Invested:** ~6 hours  
 **Confidence Level:** High - All requirements met with production-ready solutions
