@@ -153,7 +153,7 @@ Implement automated weekly rightsizing analysis with budget alerts at 120% of 7-
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Languages:** Python 3.8+, SQL (ANSI SQL-92)
 - **Libraries:** pandas, numpy, matplotlib, seaborn, sqlite3
