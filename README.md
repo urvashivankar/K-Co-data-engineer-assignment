@@ -6,21 +6,21 @@
 
 ---
 
-## 📋 Executive Summary
+##  Executive Summary
 
 This submission presents a complete solution for K&Co's cloud cost intelligence platform, covering data profiling, warehouse design, SQL transformations, pipeline architecture, and FinOps insights across AWS and GCP billing data.
 
 **Key Findings:**
-- ✅ Analyzed **5,851 billing records** ($707K total spend)
-- ✅ Identified **7 critical data quality risks**
-- ✅ Designed **star schema** with 1 fact + 5 dimension tables
-- ✅ Created **unified billing view** combining AWS + GCP
-- ✅ Architected **production-grade pipeline** with Airflow + dbt
-- ✅ Discovered **$503 EC2 cost anomaly** (61% spike)
+- Analyzed **5,851 billing records** ($707K total spend)
+- Identified **7 critical data quality risks**
+- Designed **star schema** with 1 fact + 5 dimension tables
+- Created **unified billing view** combining AWS + GCP
+- Architected **production-grade pipeline** with Airflow + dbt
+- Discovered **$503 EC2 cost anomaly** (61% spike)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 multi-cloud-billing-assignment/
@@ -47,9 +47,9 @@ multi-cloud-billing-assignment/
 
 ---
 
-## 🎯 Assignment Parts Overview
+##  Assignment Parts Overview
 
-### Part A: Data Understanding & Quality Checks ✅
+### Part A: Data Understanding & Quality Checks 
 
 **Deliverables:**
 - [`part_a_data_profiling.ipynb`](notebooks/part_a_data_profiling.ipynb) - Comprehensive profiling notebook
@@ -70,7 +70,7 @@ multi-cloud-billing-assignment/
 
 ---
 
-### Part B: Data Modeling ✅
+### Part B: Data Modeling 
 
 **Deliverables:**
 - [`er_diagram.png`](diagram/er_diagram.png) - Star schema ER diagram
@@ -93,7 +93,7 @@ multi-cloud-billing-assignment/
 
 ---
 
-### Part C: SQL Transformations ✅
+### Part C: SQL Transformations 
 
 **Deliverables:**
 - [`part_c_transformations.sql`](sql/part_c_transformations.sql) - All SQL queries
@@ -112,7 +112,7 @@ multi-cloud-billing-assignment/
 
 ---
 
-### Part D: Pipeline Design ✅
+### Part D: Pipeline Design 
 
 **Deliverables:**
 - [`pipeline_architecture.png`](diagram/pipeline_architecture.png) - Architecture diagram
@@ -130,7 +130,7 @@ multi-cloud-billing-assignment/
 
 ---
 
-### Part E: Value Extraction (FinOps Mindset) ✅
+### Part E: Value Extraction (FinOps Mindset) 
 
 **Deliverables:**
 - [`Part_E_FinOps_Analysis.md`](docs/Part_E_FinOps_Analysis.md) - Anomaly analysis & recommendations
@@ -163,7 +163,7 @@ Implement automated weekly rightsizing analysis with budget alerts at 120% of 7-
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 ```bash
@@ -188,7 +188,7 @@ jupyter notebook notebooks/part_a_data_profiling.ipynb
 
 ---
 
-## 📊 Key Metrics Summary
+##  Key Metrics Summary
 
 | Metric | Value |
 |--------|-------|
@@ -205,39 +205,39 @@ jupyter notebook notebooks/part_a_data_profiling.ipynb
 
 ---
 
-## 💡 Recommendations for Production
+##  Recommendations for Production
 
 ### Immediate (Week 1)
-1. ✅ Implement unified billing view in Snowflake
-2. ✅ Set up Great Expectations validation suite
-3. ✅ Deploy Airflow DAG for daily ingestion
+1. Implement unified billing view in Snowflake
+2. Set up Great Expectations validation suite
+3. Deploy Airflow DAG for daily ingestion
 
 ### Short-term (Month 1)
-4. ✅ Create dimension tables with referential integrity
-5. ✅ Implement automated rightsizing analysis
-6. ✅ Set up cost anomaly alerts (>120% of 7-day avg)
+4. Create dimension tables with referential integrity
+5. Implement automated rightsizing analysis
+6. Set up cost anomaly alerts (>120% of 7-day avg)
 
 ### Medium-term (Quarter 1)
-7. ✅ Build BI dashboards in Tableau/Looker
-8. ✅ Implement reserved instance recommendations
-9. ✅ Optimize non-production environment costs
+7. Build BI dashboards in Tableau/Looker
+8. Implement reserved instance recommendations
+9. Optimize non-production environment costs
 
 **Estimated Annual Savings:** $130,000 - $160,000 (18-23% cost reduction)
 
 ---
 
-## 📝 Documentation Quality
+## Documentation Quality
 
 All deliverables include:
-- ✅ Clear explanations of design decisions
-- ✅ Sample outputs and visualizations
-- ✅ Production-ready considerations
-- ✅ Assumptions clearly stated
-- ✅ Future enhancement roadmap
+- Clear explanations of design decisions
+- Sample outputs and visualizations
+- Production-ready considerations
+- Assumptions clearly stated
+- Future enhancement roadmap
 
 ---
 
-## 🎓 What I Learned
+##  What I Learned
 
 1. **Data Quality is Critical:** Even clean-looking data has hidden risks (negative costs, potential duplicates)
 2. **Star Schema Simplicity:** Denormalized dimensions make analytics queries much easier
@@ -247,7 +247,7 @@ All deliverables include:
 
 ---
 
-## 📧 Contact
+##  Contact
 
 For questions about this submission, please contact:
 - **Email:** [urvashiparmar1603@gmail.com]
@@ -256,7 +256,7 @@ For questions about this submission, please contact:
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Thank you to K&Co for this comprehensive and realistic take-home assignment. It provided excellent hands-on experience with:
 - Real-world cloud billing data
